@@ -1,3 +1,3 @@
 # Hangman-Game
 #1 Lesson of C++
-Projetc 2 : console game
+Project 2 : console game
