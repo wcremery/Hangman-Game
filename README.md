@@ -1,2 +1,2 @@
 # Hangman-Game
-Project 2 : console game
+Project 2
