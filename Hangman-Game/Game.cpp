@@ -1,5 +1,5 @@
 #include "Game.h"
-#include "windows.h"
+#include "Constants.h"
 
 using namespace std;
 
@@ -11,6 +11,7 @@ string initGame()
 	menuMessage();	
 	word = WORDS_TO_GUESS[generateRandomIndex()];
 	printHowManyLettersHasTheWord(word);
+
 	return word;
 }
 
@@ -30,6 +31,13 @@ void menuMessage()
 	cout << menuMessage << endl;
 }
 
+void wordOrLetterMessage()
+{
+	auto menuMessage{ "1. WORD\n2. LETTER" };
+
+	cout << menuMessage << endl;
+}
+
 void printHowManyLettersHasTheWord(string &word)
 {
 	for (auto i = 0; i < word.length(); i++)
@@ -44,5 +52,5 @@ void printPlayerAdvancement(string &playerAdvancement)
 
 void printPlayerLife(int &tries)
 {
-	DRAWS_HANGMAN[tries];
+	cout << DRAWS_HANGMAN[tries] << endl;
 }

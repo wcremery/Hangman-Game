@@ -6,6 +6,6 @@ enum MenuChoices {
 };
 
 enum PlayerChoices {
-	WORD,
-	LETTER
+	WORD_PROPOSAL,
+	LETTER_PROPOSAL
 };

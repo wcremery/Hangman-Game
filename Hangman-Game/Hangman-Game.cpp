@@ -6,6 +6,8 @@ using namespace std;
 
 int main()
 {
-
+	initGame();
+	menuMessage();
+	wordOrLetterMessage();
 	return EXIT_SUCCESS;
 }

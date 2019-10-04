@@ -6,8 +6,10 @@
 #include "Enums.h"
 
 // ask the player to enter a letter
-string letterProposal();
+std::string letterProposal();
 // ask the player to enter a word
-string wordProposal(int& wordSize);
+std::string wordProposal(int &wordSize);
 // ask the player to make a choice in the menu
 MenuChoices gameMenu();
+// ask the player to choose between enter a letter or the word
+PlayerChoices wordOrLetter();
